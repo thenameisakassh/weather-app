@@ -15,8 +15,8 @@ body {
 }
 
 .card {
-  width: 90%;
-  max-width: 470px;
+  width: 100%;
+  max-width: 650px;
   background: rgba(255,255,255,0.06);
   color: #343333;
   margin: 0 auto;
@@ -186,4 +186,21 @@ body {
   .weather h1 { font-size: 56px; }
   .weather h2 { font-size: 28px; }
   .clouds { height: 140px; }
+}
+#weatherResult {
+  margin-top: 20px;
+  text-align: center;
+}
+#weatherResult h2{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+#weatherResult p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
